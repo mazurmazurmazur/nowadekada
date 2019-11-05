@@ -1,382 +1,415 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- SITE TITTLE -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Mówcy - Ekonomiczna 2020</title>
 
     <!-- PLUGINS CSS STYLE -->
     <!-- Bootstrap -->
-    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- Themefisher Font -->
-    <link href="plugins/themefisher-font/style.css" rel="stylesheet" />
+    <link href="plugins/themefisher-font/style.css" rel="stylesheet"/>
     <!-- Font Awesome -->
     <link
-      href="plugins/font-awsome/css/font-awesome.min.css"
-      rel="stylesheet"
+            href="plugins/font-awsome/css/font-awesome.min.css"
+            rel="stylesheet"
     />
     <!-- Magnific Popup -->
-    <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet"/>
     <!-- Slick Carousel -->
-    <link href="plugins/slick/slick.css" rel="stylesheet" />
-    <link href="plugins/slick/slick-theme.css" rel="stylesheet" />
+    <link href="plugins/slick/slick.css" rel="stylesheet"/>
+    <link href="plugins/slick/slick-theme.css" rel="stylesheet"/>
     <!-- CUSTOM CSS -->
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/extra.css" rel="stylesheet" />
-    <link href="css/nav.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/extra.css" rel="stylesheet"/>
+    <link href="css/nav.css" rel="stylesheet"/>
 
     <!-- FAVICON -->
-    <link href="images/favicon.png" rel="shortcut icon" />
+    <link href="images/favicon.png" rel="shortcut icon"/>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150262602-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150262602-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-150262602-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-  </head>
+        gtag('js', new Date());
 
-  <body class="body-wrapper">
-    <div class="progress" id="PreLoaderBar">
-      <div class="indeterminate"></div>
-    </div>
-    <!--========================================
+        gtag('config', 'UA-150262602-1');
+    </script>
+
+</head>
+
+<body class="body-wrapper">
+<div class="progress" id="PreLoaderBar">
+    <div class="indeterminate"></div>
+</div>
+<!--========================================
 =            Navigation Section            =
 =========================================-->
 
-    <div id="navBg">
-      <span id="navBurger" onclick="openNav()">&#9776;</span>
-      <div id="logoMainWrapper">
+<div id="navBg">
+    <span id="navBurger" onclick="openNav()">&#9776;</span>
+    <div id="logoMainWrapper">
         <a href="index.html"><img id="logoBW" src="images/logobw.png"/></a>
-      </div>
     </div>
-    <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
-      <div class="container-fluid p-0">
+</div>
+<nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
+    <div class="container-fluid p-0">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-          >&times;</a
+        >&times;</a
         >
         <!-- logo -->
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo3.png" alt="logo" />
+            <img src="images/logo3.png" alt="logo"/>
         </a>
         <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
         >
-          <span class="fa fa-bars"></span>
+            <span class="fa fa-bars"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item dropdown active dropdown-slide">
-              <a
-                class="nav-link"
-                href="about-us.html
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown active dropdown-slide">
+                    <a
+                            class="nav-link"
+                            href="about-us.html
   "
-                >O Nas
-                <span> </span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="speakers.html"
-                >Mówcy
+                    >O Nas
+                        <span> </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="speakers.html"
+                    >Mówcy
 
-                <span> </span>
-              </a>
-            </li>
+                        <span> </span>
+                    </a>
+                </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="agenda.pdf" target="_blank">Agenda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">&nbsp;Partnerzy<span> </span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Warsztaty<span> </span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="team.html">Organizatorzy</a>
-            </li>
-            <li class="nav-item"></li>
-            <li class="nav-item">
-              <a class="nav-link">Kontakt</a>
-            </li>
-          </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="agenda.pdf" target="_blank">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">&nbsp;Partnerzy<span> </span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Warsztaty<span> </span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Organizatorzy</a>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item">
+                    <a class="nav-link">Kontakt</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </nav>
+    </div>
+</nav>
 
-    <!--====  End of Navigation Section  ====-->
+<!--====  End of Navigation Section  ====-->
 
-    <!--==============================
+<!--==============================
 =            Speakers            =
 ===============================-->
 
-    <section class="section speakers white">
-      <div class="container">
+<section class="section speakers white">
+    <div class="container">
         <div class="row">
-          <div class="col-12">
-            <!-- Section Title -->
-            <div class="section-title">
-              <h3>
+            <div class="col-12">
+                <!-- Section Title -->
+                <div class="section-title">
+                    <h3>
                 <span class="alternate" href="../speakers.html">Mówcy
 		
  </span>
-              </h3>
-              <p></p>
+                    </h3>
+                    <p></p>
+                </div>
             </div>
-          </div>
         </div>
         <div class="row">
 
-          <!-- Anna Topol -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="speaker-item">
-              <div class="image">
-                <img
-                  src="images/speakers/ibm.jpg"
-                  alt="speaker"
-                  class="img-fluid"
-                />
-                <div class="primary-overlay"></div>
-                <div class="socials">
-                  <ul class="list-inline speaker-icon">
-                    <li class="list-inline-item">
-                      <a href="https://www.linkedin.com/in/annawtopol/"
-                        ><i class="fa fa-linkedin"></i
-                      ></a>
-                    </li>
-                  </ul>
+            <!-- Anna Topol -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item">
+                    <div class="image">
+                        <img
+                                src="images/speakers/ibm.jpg"
+                                alt="speaker"
+                                class="img-fluid"
+                        />
+                        <div class="primary-overlay"></div>
+                        <div class="socials">
+                            <ul class="list-inline speaker-icon">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/annawtopol/"
+                                    ><i class="fa fa-linkedin"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content text-center">
+                        <h5><a href="speakers/topol.html">IBM</a></h5>
+                        <p>Anna Topol</p>
+                    </div>
                 </div>
-              </div>
-              <div class="content text-center">
-                <h5><a href="speakers/topol.html">IBM</a></h5>
-                <p>Anna Topol</p>
-              </div>
             </div>
-          </div>
 
-          <!-- Tadeusz Chruściel  -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="speaker-item">
-              <div class="image">
-                <img
-                  src="images/speakers/scanye.png"
-                  alt="speaker"
-                  class="img-fluid"
-                />
-                <div class="primary-overlay"></div>
-                <div class="socials">
-                  <ul class="list-inline speaker-icon">
-                    <li class="list-inline-item">
-                      <a href="https://www.linkedin.com/in/tadeuszchrusciel/"
-                        ><i class="fa fa-linkedin"></i
-                      ></a>
-                    </li>
-                  </ul>
+            <!-- Tadeusz Chruściel  -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item">
+                    <div class="image">
+                        <img
+                                src="images/speakers/scanye.png"
+                                alt="speaker"
+                                class="img-fluid"
+                        />
+                        <div class="primary-overlay"></div>
+                        <div class="socials">
+                            <ul class="list-inline speaker-icon">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/tadeuszchrusciel/"
+                                    ><i class="fa fa-linkedin"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content text-center">
+                        <h5><a href="speakers/chrusciel.html">Scanye</a></h5>
+                        <p>Tadeusz Chruściel</p>
+                    </div>
                 </div>
-              </div>
-              <div class="content text-center">
-                <h5><a href="speakers/chrusciel.html">Scanye</a></h5>
-                <p>Tadeusz Chruściel</p>
-              </div>
             </div>
-          </div>
 
-          <!-- Jakub Fryszczyn  -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="speaker-item">
-              <div class="image">
-                <img
-                  src="images/speakers/foodsi.jpg"
-                  alt="speaker"
-                  class="img-fluid"
-                />
-                <div class="primary-overlay"></div>
-                <div class="socials">
-                  <ul class="list-inline speaker-icon">
-                    <li class="list-inline-item">
-                      <a href="https://www.linkedin.com/in/jakub-fryszczyn-32435892/"
-                        ><i class="fa fa-linkedin"></i
-                      ></a>
-                    </li>
-                  </ul>
+            <!-- Jakub Fryszczyn  -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item">
+                    <div class="image">
+                        <img
+                                src="images/speakers/foodsi.jpg"
+                                alt="speaker"
+                                class="img-fluid"
+                        />
+                        <div class="primary-overlay"></div>
+                        <div class="socials">
+                            <ul class="list-inline speaker-icon">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/jakub-fryszczyn-32435892/"
+                                    ><i class="fa fa-linkedin"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content text-center">
+                        <h5><a href="speakers/foodsi.html">Foodsi</a></h5>
+                        <p>Jakub Fryszczyn</p>
+                    </div>
                 </div>
-              </div>
-              <div class="content text-center">
-                <h5><a href="speakers/foodsi.html">Foodsi</a></h5>
-                <p>Jakub Fryszczyn</p>
-              </div>
             </div>
-          </div>
 
-          <!-- Paula Schabińska -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="speaker-item">
-              <div class="image">
-                <img
-                  src="images/speakers/airror.png"
-                  alt="speaker"
-                  class="img-fluid"
-                />
-                <div class="primary-overlay"></div>
-                <div class="socials">
-                  <ul class="list-inline speaker-icon">
-                    <li class="list-inline-item">
-                      <a href="https://www.linkedin.com/in/pschabinska/"
-                        ><i class="fa fa-linkedin"></i
-                      ></a>
-                    </li>
-                  </ul>
+            <!-- Paula Schabińska -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item">
+                    <div class="image">
+                        <img
+                                src="images/speakers/airror.png"
+                                alt="speaker"
+                                class="img-fluid"
+                        />
+                        <div class="primary-overlay"></div>
+                        <div class="socials">
+                            <ul class="list-inline speaker-icon">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/pschabinska/"
+                                    ><i class="fa fa-linkedin"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content text-center">
+                        <h5><a href="speakers/schabinska.html">Airror</a></h5>
+                        <p>Paula Schabińska</p>
+                    </div>
                 </div>
-              </div>
-              <div class="content text-center">
-                <h5><a href="speakers/schabinska.html">Airror</a></h5>
-                <p>Paula Schabińska</p>
-              </div>
             </div>
-          </div>
 
-          <!-- Dario Cipriani  -->
-          <div class="col-lg-3 col-md-4 col-sm-6">
-            <div class="speaker-item">
-              <div class="image">
-                <img
-                        src="images/speakers/cee-equity.png"
-                        alt="speaker"
-                        class="img-fluid"
-                />
-                <div class="primary-overlay"></div>
-                <div class="socials">
-                  <ul class="list-inline speaker-icon">
-                    <li class="list-inline-item">
-                      <a href="https://www.linkedin.com/in/dario-cipriani-7a0891/"
-                      ><i class="fa fa-linkedin"></i
-                      ></a>
-                    </li>
-                  </ul>
+            <!-- Dario Cipriani  -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item">
+                    <div class="image">
+                        <img
+                                src="images/speakers/cee-equity.png"
+                                alt="speaker"
+                                class="img-fluid"
+                        />
+                        <div class="primary-overlay"></div>
+                        <div class="socials">
+                            <ul class="list-inline speaker-icon">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/dario-cipriani-7a0891/"
+                                    ><i class="fa fa-linkedin"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content text-center">
+                        <h5><a href="speakers/cipriani.html">CEE Equity</a></h5>
+                        <p>Dario Cipriani</p>
+                    </div>
                 </div>
-              </div>
-              <div class="content text-center">
-                <h5><a href="speakers/cipriani.html">CEE Equity</a></h5>
-                <p>Dario Cipriani</p>
-              </div>
             </div>
-          </div>
+
+            <!-- Małgorzata O’Shaughnessy -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="speaker-item">
+                    <div class="image">
+                        <img
+                                src="images/speakers/visa.png"
+                                alt="speaker"
+                                class="img-fluid"
+                        />
+                        <div class="primary-overlay"></div>
+                        <div class="socials">
+                            <ul class="list-inline speaker-icon">
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/malgorzata-o-shaughnessy-b442342/"
+                                    ><i class="fa fa-linkedin"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content text-center">
+                        <h5><a href="speakers/shaughnessy.html">Visa</a></h5>
+                        <p>Małgorzata O’Shaughnessy</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
-      </div>
-    </section>
+    </div>
+</section>
 
-    <!--====  End of Speakers  ====-->
+<!--====  End of Speakers  ====-->
 
-    <!--================================
+<!--================================
 =            Google Map            =
 
 =================================-->
 
-    <section class="map">
-      <!-- Google Map -->
-      <div id="map"></div>
-      <div class="address-block">
+<section class="map">
+    <!-- Google Map -->
+    <div id="map"></div>
+    <div class="address-block">
         <h4>Ekonomiczna 2020</h4>
         <ul class="address-list p-0 m-0">
-          <li>
-            <i class="fa fa-home"></i
-            ><span
-              >Akwarium - Skwer Hoovera <br />Krakowskie Przedmieście 60a,<br />
+            <li>
+                <i class="fa fa-home"></i
+                ><span
+            >Akwarium - Skwer Hoovera <br/>Krakowskie Przedmieście 60a,<br/>
               00-322 Warszawa</span
             >
-          </li>
+            </li>
         </ul>
         <a href="#" class="btn btn-white-md">Wskazówki</a>
-      </div>
-    </section>
+    </div>
+</section>
 
-    <!--====  End of Google Map  ====-->
+<!--====  End of Google Map  ====-->
 
-    <!--============================
+<!--============================
 =            Footer            =
 =============================-->
 
-    <footer class="footer-main">
-      <div class="container">
+<footer class="footer-main">
+    <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="block text-center">
-              <div class="footer-logo">
-                <img
-                  id="logo-footer"
-                  src="images/footer-logo.png"
-                  alt="logo"
-                  class="img-fluid"
-                />
-              </div>
-              <ul class="social-links-footer list-inline">
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com/stowarzyszenie.youth2.0"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/company/youth-2-0/about"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.instagram.com/youth__2.0/"><i class="fa fa-instagram"></i></a>
-                </li>
-              </ul>
+            <div class="col-md-12">
+                <div class="block text-center">
+                    <div class="footer-logo">
+                        <img
+                                id="logo-footer"
+                                src="images/footer-logo.png"
+                                alt="logo"
+                                class="img-fluid"
+                        />
+                    </div>
+                    <ul class="social-links-footer list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/stowarzyszenie.youth2.0"><i
+                                    class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/company/youth-2-0/about"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/youth__2.0/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </footer>
-    <!-- Subfooter -->
-    <footer class="subfooter">
-      <div class="container">
+    </div>
+</footer>
+<!-- Subfooter -->
+<footer class="subfooter">
+    <div class="container">
         <div class="row">
-          <div class="col-md-6 align-self-center">
-            <div class="copyright-text">
-              <p>
-                <a href="#">Ekonomiczna 2020</a> &#169; 2019 All Rights Reserved
-              </p>
+            <div class="col-md-6 align-self-center">
+                <div class="copyright-text">
+                    <p>
+                        <a href="#">Ekonomiczna 2020</a> &#169; 2019 All Rights Reserved
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
-          </div>
+            <div class="col-md-6">
+                <a href="#" class="to-top"><i class="fa fa-angle-up"></i></a>
+            </div>
         </div>
-      </div>
-    </footer>
+    </div>
+</footer>
 
-    <!-- JAVASCRIPTS -->
-    <!-- jQuey -->
-    <script src="plugins/jquery/jquery.js"></script>
-    <!-- Popper js -->
-    <script src="plugins/popper/popper.min.js"></script>
-    <!-- Bootstrap 4 -->
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Smooth Scroll -->
-    <script src="plugins/smoothscroll/SmoothScroll.min.js"></script>
-    <!-- Isotope -->
-    <script src="plugins/isotope/mixitup.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <!-- Slick Carousel -->
-    <script src="plugins/slick/slick.min.js"></script>
-    <!-- SyoTimer -->
-    <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-    <!-- Google Mapl -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlM2TsDKs9DZt2uYoqOeD9gOB4Gz2sf_8"></script>
-    <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
-    <!-- Custom Script -->
-    <script src="js/custom.js"></script>
-  </body>
+<!-- JAVASCRIPTS -->
+<!-- jQuey -->
+<script src="plugins/jquery/jquery.js"></script>
+<!-- Popper js -->
+<script src="plugins/popper/popper.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- Smooth Scroll -->
+<script src="plugins/smoothscroll/SmoothScroll.min.js"></script>
+<!-- Isotope -->
+<script src="plugins/isotope/mixitup.min.js"></script>
+<!-- Magnific Popup -->
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Slick Carousel -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- SyoTimer -->
+<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+<!-- Google Mapl -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlM2TsDKs9DZt2uYoqOeD9gOB4Gz2sf_8"></script>
+<script type="text/javascript" src="plugins/google-map/gmap.js"></script>
+<!-- Custom Script -->
+<script src="js/custom.js"></script>
+</body>
 </html>
