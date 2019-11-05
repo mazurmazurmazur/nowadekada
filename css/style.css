@@ -665,8 +665,8 @@ select.form-control:not([size]):not([multiple]) {
 
 .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: calc(5vh + 20px);
+  right: calc(5vw + 20px);
   font-size: 60px;
 }
 
