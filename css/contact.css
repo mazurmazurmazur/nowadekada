@@ -1,0 +1,12 @@
+.ekonomiczna-contact-mailto {
+    font-size: 2.8rem;
+}
+
+.ekonomiczna-contact-footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ekonomiczna-contact-footer {
+    text-align: left;
+}
