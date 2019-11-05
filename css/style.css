@@ -756,7 +756,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .nav-link {
   white-space: nowrap;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   margin-left: 0.5em;
   margin-right: 1em;
 }
