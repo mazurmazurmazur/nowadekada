@@ -1,0 +1,23 @@
+#navBg {
+  top: 0;
+}
+
+#logoBW {
+  width: 3.5vw;
+  top: 2vw;
+}
+
+#navBurger {
+  top: 1.5vw;
+  font-size: 2.5vw;
+}
+
+@media (max-width: 1024px) {
+  #logoBW {
+    width: 15vw;
+  }
+
+  #navBurger {
+    font-size: 12vw;
+  }
+}
