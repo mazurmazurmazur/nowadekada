@@ -42,50 +42,34 @@
 =            Navigation Section            =
 =========================================-->
 
-    <div id="navBg">
-      <span id="navBurger" onclick="openNav()">&#9776;</span>
-      <div id="logoMainWrapper">
-        <a href="../index.html"
-          ><img id="logoBW" src="../images/logobw.png"
-        /></a>
-      </div>
+    <div id="navBg"></div>
+    <div class="ekonomiczna-navbar">
+      <a id="logoMainWrapper" href="../index.html" onclick="return closeTopBar()"><img id="logoBW" src="../images/logobw.png"></a>
+      <div id="navBurger" onclick="openNav()">&#9776;</div>
     </div>
     <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
       <div class="container-fluid p-0">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-          >&times;</a
-        >
+        <div class="ekonomiczna-close-nav-container">
+          <div class="ekonomiczna-close-nav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          </div>
+        </div>
+
         <!-- logo -->
         <a class="navbar-brand" href="../index.html">
-          <img src="../images/logo3.png" alt="logo" />
+          <img src="../images/logo3.png" alt="logo">
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="fa fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+
+        <div id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item dropdown active dropdown-slide">
-              <a
-                class="nav-link"
-                href="../about-us.html
-  "
-                >O Nas
-                <span> </span>
-              </a>
+              <a class="nav-link" href="../about-us.html">O Nas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="speakers.html"
-                >Mówcy
+              <a class="nav-link" href="../speakers.html">Mówcy
 
-                <span> </span>
+
+
               </a>
             </li>
 
@@ -93,15 +77,15 @@
               <a class="nav-link" href="../agenda.pdf" target="_blank">Agenda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">&nbsp;Partnerzy<span> </span></a>
+              <a class="nav-link" >Partnerzy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Warsztaty<span> </span></a>
+              <a class="nav-link" >Warsztaty</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../team.html">Organizatorzy</a>
             </li>
-            <li class="nav-item"></li>
+            <li class="nav-item">
             <li class="nav-item">
               <a href="../contact.html" class="nav-link">Kontakt</a>
             </li>
@@ -109,8 +93,6 @@
         </div>
       </div>
     </nav>
-
-    <!--====  End of Navigation Section  ====-->
 
     <!--====  End of Navigation Section  ====-->
 

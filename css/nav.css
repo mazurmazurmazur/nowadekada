@@ -2,22 +2,25 @@
   top: 0;
 }
 
-#logoBW {
-  width: 3.5vw;
-  top: 2vw;
+.ekonomiczna-navbar {
+  top: 0;
+  height: 5rem;
+}
+
+.ekonomiczna-close-nav {
+  padding: 10px 40px;
 }
 
 #navBurger {
-  top: 1.5vw;
-  font-size: 2.5vw;
+  padding: 10px 40px;
+  font-size: 2.5rem;
 }
 
-@media (max-width: 1024px) {
-  #logoBW {
-    width: 15vw;
-  }
+#logoMainWrapper {
+  padding: 10px 40px;
+}
 
-  #navBurger {
-    font-size: 12vw;
-  }
+
+#logoBW {
+  width: 3rem;
 }
