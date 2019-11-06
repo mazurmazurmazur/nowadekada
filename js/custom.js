@@ -1,9 +1,11 @@
 function openNav() {
-  document.querySelector('.main-nav').style.width = '100vw';
+  document.querySelector('.main-nav').style.width = '100%';
+  document.querySelector('.ekonomiczna-close-nav-container').style.width = '100%';
 }
 
 function closeNav() {
-  document.querySelector('.main-nav').style.width = '0%';
+  document.querySelector('.main-nav').style.width = '0';
+  document.querySelector('.ekonomiczna-close-nav-container').style.width = '0';
 }
 
 let windowHeight = screen.height;
