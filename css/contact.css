@@ -2,6 +2,12 @@
     font-size: 2.8rem;
 }
 
+@media (max-width: 767px) {
+    .ekonomiczna-contact-mailto {
+        font-size: 1.1rem;
+    }
+}
+
 .ekonomiczna-contact-footer-container {
     display: flex;
     justify-content: center;
