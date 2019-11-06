@@ -3916,6 +3916,7 @@ ul.pagination .active a {
   position: fixed;
   transition: 1s;
   z-index: 9;
+  top: -5rem;
 }
 
 #navBurger {
