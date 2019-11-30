@@ -1331,6 +1331,10 @@ select.form-control:not([size]):not([multiple]) {
   line-height: 50px;
 }
 
+.speakers .speaker-item:hover {
+  background-color: #25527d38 !important;
+}
+
 .speakers .speaker-item .image .socials ul li a:hover {
   background: #fff;
 }
@@ -3956,4 +3960,8 @@ ul.pagination .active a {
   padding: 10px 60px;
   transition: 1s;
   display: flex;
+}
+
+.ekonomiczna-speaker-tile {
+  cursor: pointer;
 }

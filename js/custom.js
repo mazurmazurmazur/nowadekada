@@ -8,6 +8,10 @@ function closeNav() {
   document.querySelector('.ekonomiczna-close-nav-container').style.width = '0';
 }
 
+function redirectTo(path) {
+  window.document.location = path;
+}
+
 let windowHeight = screen.height;
 let topMenu = document.getElementById('navBg');
 let logoBW = document.getElementById('logoBW');
