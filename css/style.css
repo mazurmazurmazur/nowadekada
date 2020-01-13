@@ -1,11 +1,11 @@
 /*=== MEDIA QUERY ===*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
   font-weight: 600;
 }
@@ -90,7 +90,7 @@ ul.pagination .active a,
   box-shadow: 0px 0px 30px 0px rgba(11, 29, 66, 0.15);
 }
 
-.speaker-item:hover{
+.speaker-item:hover {
   cursor: pointer;
 }
 
@@ -99,7 +99,7 @@ ul.pagination .active a,
 }
 
 .overlay:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -108,7 +108,7 @@ ul.pagination .active a,
 }
 
 .overlay:after {
-  content: '';
+  content: "";
   background: -webkit-linear-gradient(
     -45deg,
     #1e5799 0%,
@@ -125,7 +125,7 @@ ul.pagination .active a,
 }
 
 .overlay-lighter:before {
-  content: '';
+  content: "";
   background: -webkit-linear-gradient(
     -45deg,
     #1e5799 0%,
@@ -142,8 +142,8 @@ ul.pagination .active a,
 }
 
 .text-overlay:after {
-  content: 'CONFERENCE';
-  font-family: 'Montserrat', sans-serif;
+  content: "CONFERENCE";
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 215px;
   width: 100%;
@@ -158,7 +158,7 @@ ul.pagination .active a,
 }
 
 .overlay-primary:before {
-  content: '';
+  content: "";
   background: rgba(255, 102, 0, 0.93);
   position: absolute;
   top: 0;
@@ -168,7 +168,7 @@ ul.pagination .active a,
 }
 
 .overlay-dark:before {
-  content: '';
+  content: "";
   background: -webkit-linear-gradient(
     -45deg,
     #1e5799 0%,
@@ -185,7 +185,7 @@ ul.pagination .active a,
 }
 
 .overlay-white:before {
-  content: '';
+  content: "";
   background: linear-gradient(0deg, rgba(245, 245, 248, 0.8) 0%, #f7f7f7 100%);
   position: absolute;
   top: 0;
@@ -195,7 +195,7 @@ ul.pagination .active a,
 }
 
 .overlay-white-slant:before {
-  content: '';
+  content: "";
   width: 100%;
 
   background: white;
@@ -252,8 +252,6 @@ button:hover {
   top:0;
   left:0;
 } */
-
-
 
 #vidBgWrapper {
   position: absolute;
@@ -541,7 +539,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .btn {
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   transition: all 0.3s ease;
 }
 
@@ -661,7 +659,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .main-nav .navbar-brand img {
-  height: 20vh;
+  height: 17vh;
   width: auto;
 }
 
@@ -685,14 +683,14 @@ select.form-control:not([size]):not([multiple]) {
 
 .main-nav .navbar-nav .nav-item {
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .main-nav .navbar-nav .nav-item .nav-link {
   position: relative;
   text-align: center;
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 1024px) {
@@ -713,9 +711,9 @@ select.form-control:not([size]):not([multiple]) {
 
 .nav-link {
   white-space: nowrap;
-  font-size: 1.7vw;
+  font-size: 1.6vw;
   margin-left: 0.5em;
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 
 .nav-link:hover {
@@ -836,7 +834,7 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
   font-size: 1.125rem;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   border-left: 1px solid #ffa366;
   padding-left: 24px;
 }
@@ -885,7 +883,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .page-title .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  content: '\f105';
+  content: "\f105";
   font-family: FontAwesome;
   color: #fff;
 }
@@ -939,7 +937,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .subfooter .copyright-text p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .subfooter .copyright-text p a {
@@ -1074,7 +1072,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .banner .block .timer .syotimer-cell .syotimer-cell__value {
   min-width: 80px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 35px;
   line-height: 77px;
   text-align: center;
@@ -1099,7 +1097,7 @@ select.form-control:not([size]):not([multiple]) {
   text-transform: lowercase;
   font-weight: normal;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .banner .block h1 {
@@ -1204,8 +1202,6 @@ select.form-control:not([size]):not([multiple]) {
 .about .content-block h2 {
   margin-bottom: 35px;
 }
-
-
 
 @media (max-width: 767px) {
   .about .content-block h2:after {
@@ -1395,7 +1391,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .schedule .schedule-tab ul li.nav-item a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 1.5rem;
   color: #045a95;
@@ -1408,7 +1404,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .schedule .schedule-tab ul li.nav-item a span {
   margin-top: 2px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: block;
   font-size: 1rem;
   color: #848484;
@@ -1426,7 +1422,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .schedule .schedule-tab ul li.nav-item a.active:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -20px;
@@ -1529,7 +1525,7 @@ select.form-control:not([size]):not([multiple]) {
 .schedule .schedule-contents .schedule-item li.headings div {
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .schedule .schedule-contents .schedule-item li.schedule-details {
@@ -1548,7 +1544,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .schedule .schedule-contents .schedule-item li.schedule-details .block div {
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .schedule .schedule-contents .schedule-item li.schedule-details .block div i {
@@ -1642,7 +1638,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .schedule.two .schedule-tab ul li.nav-item a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   color: #222222;
@@ -1655,7 +1651,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .schedule.two .schedule-tab ul li.nav-item a span {
   margin-top: 2px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: block;
   font-size: 14px;
   color: #848484;
@@ -1673,7 +1669,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .schedule.two .schedule-tab ul li.nav-item a.active:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 100%;
   right: 0;
@@ -1778,7 +1774,7 @@ select.form-control:not([size]):not([multiple]) {
 .schedule.two .schedule-contents .schedule-item li.headings div {
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .schedule.two
@@ -1800,7 +1796,7 @@ select.form-control:not([size]):not([multiple]) {
   padding-top: 25px;
   padding-bottom: 25px;
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .schedule.two
@@ -1933,7 +1929,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .ticket-feature .block .timer .syotimer-cell .syotimer-cell__value {
   min-width: 80px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 35px;
   height: 100px;
   width: 100px;
@@ -1961,7 +1957,7 @@ select.form-control:not([size]):not([multiple]) {
   text-transform: lowercase;
   font-weight: normal;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .ticket-feature .block-2 {
@@ -1971,16 +1967,16 @@ select.form-control:not([size]):not([multiple]) {
   background: #045a95;
 }
 
-.ticket-feature .block-2 [class*='col-']:first-child {
+.ticket-feature .block-2 [class*="col-"]:first-child {
   border-right: 1px solid #fc9552;
   border-bottom: 1px solid #fc9552;
 }
 
-.ticket-feature .block-2 [class*='col-']:nth-child(2) {
+.ticket-feature .block-2 [class*="col-"]:nth-child(2) {
   border-bottom: 1px solid #fc9552;
 }
 
-.ticket-feature .block-2 [class*='col-']:nth-child(3) {
+.ticket-feature .block-2 [class*="col-"]:nth-child(3) {
   border-right: 1px solid #fc9552;
 }
 
@@ -2000,13 +1996,13 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .ticket-feature .block-2 .service-item h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .ticket-feature .block-2:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 100%;
   bottom: 0;
@@ -2033,16 +2029,16 @@ select.form-control:not([size]):not([multiple]) {
   padding: 120px 10%;
 }
 
-.registration .service-block [class*='col-']:first-child {
+.registration .service-block [class*="col-"]:first-child {
   border-right: 1px solid #f69351;
   border-bottom: 1px solid #f69351;
 }
 
-.registration .service-block [class*='col-']:nth-child(2) {
+.registration .service-block [class*="col-"]:nth-child(2) {
   border-bottom: 1px solid #f69351;
 }
 
-.registration .service-block [class*='col-']:nth-child(3) {
+.registration .service-block [class*="col-"]:nth-child(3) {
   border-right: 1px solid #f69351;
 }
 
@@ -2062,7 +2058,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .registration .service-block .service-item h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -2216,7 +2212,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .pricing.two .pricing-item .pricing-heading:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -25%;
   left: 0;
@@ -2303,7 +2299,6 @@ select.form-control:not([size]):not([multiple]) {
 
 @media (max-width: 480px) {
   .map .address-block {
-    
   }
 }
 
@@ -2404,7 +2399,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .feature .testimonial p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
   font-style: italic;
   color: #242424;
@@ -2552,7 +2547,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .testimonial .testimonial-slider .item .block p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
   color: #888888;
 }
@@ -2631,7 +2626,7 @@ select.form-control:not([size]):not([multiple]) {
   line-height: 40px;
 }
 
-.single-speaker{
+.single-speaker {
   margin-top: 15vh;
 }
 
@@ -2688,7 +2683,7 @@ select.form-control:not([size]):not([multiple]) {
 .single-speaker .block-2 .personal-info ul li:before {
   position: absolute;
   left: -25px;
-  content: '\f10c';
+  content: "\f10c";
   font-family: FontAwesome;
   color: #045a95;
 }
@@ -2711,7 +2706,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .single-speaker .block-2 .skills .skill-bar .progress .progress-bar span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   float: right;
   margin-top: -20px;
   color: #222222;
@@ -2750,7 +2745,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .speakers-full-width .speaker-slider .speaker-image .primary-overlay h5,
 .speakers-full-width .speaker-slider .speaker-image .primary-overlay p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
@@ -2798,7 +2793,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .speakers-full-width .speaker-slider .slick-prev:before {
-  content: '\f104';
+  content: "\f104";
 }
 
 .speakers-full-width .speaker-slider .slick-next {
@@ -2806,7 +2801,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .speakers-full-width .speaker-slider .slick-next:before {
-  content: '\f105';
+  content: "\f105";
 }
 
 .speakers-full-width .speaker-slider .slick-prev,
@@ -2840,7 +2835,7 @@ select.form-control:not([size]):not([multiple]) {
   background: transparent;
   border: none;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-right: 25px;
 }
 
@@ -3181,7 +3176,7 @@ select.form-control:not([size]):not([multiple]) {
 .news .blog-post.single .post-details .share-block .tag p,
 .news .blog-post.single .post-details .share-block .tag ul {
   display: inline;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .news .blog-post.single .post-details .share-block .tag p {
@@ -3217,7 +3212,7 @@ select.form-control:not([size]):not([multiple]) {
 .news .blog-post.single .post-details .share-block .share p,
 .news .blog-post.single .post-details .share-block .share ul {
   display: inline;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .news .blog-post.single .post-details .share-block .share p {
@@ -3529,7 +3524,7 @@ ul.pagination .active a {
   bottom: 0;
   left: 0;
   top: 37px;
-  content: '';
+  content: "";
   background: #045a95;
   width: 30px;
   height: 2px;
@@ -3573,14 +3568,14 @@ ul.pagination .active a {
 }
 
 .news-hr .news-post-hr .post-contents .more a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
   text-transform: uppercase;
   font-size: 14px;
 }
 
 .news-hr .news-post-hr .post-contents:after {
-  content: '';
+  content: "";
   position: absolute;
   right: 100%;
   bottom: 0;
@@ -3617,7 +3612,7 @@ ul.pagination .active a {
 }
 
 .testimonial .testimonial-item .comment:before {
-  content: '';
+  content: "";
   position: absolute;
   left: -2px;
   bottom: -27px;
@@ -3630,7 +3625,7 @@ ul.pagination .active a {
 }
 
 .testimonial .testimonial-item .comment:after {
-  content: '';
+  content: "";
   position: absolute;
   left: -1px;
   bottom: -26px;
@@ -3677,7 +3672,7 @@ ul.pagination .active a {
 }
 
 .testimonial .testimonial-item .media .media-body .name p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
 }
 
@@ -3770,7 +3765,7 @@ ul.pagination .active a {
   background-color: black;
 }
 .progress .indeterminate:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #2c67b1;
   top: 0;
@@ -3782,7 +3777,7 @@ ul.pagination .active a {
   animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
 }
 .progress .indeterminate:after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #2c67b1;
   top: 0;
@@ -3873,12 +3868,11 @@ ul.pagination .active a {
   .banner-two .block h1 {
     font-size: 14vw;
   }
-  
-  .banner-two .block h2 {
 
+  .banner-two .block h2 {
     font-size: 12vw;
   }
-  
+
   .banner-two .block h3 {
     font-size: 12vw;
   }
@@ -3900,15 +3894,12 @@ ul.pagination .active a {
     width: 15vw;
     height: auto;
   }
-
 }
 /******END MOBILE********/
 
-
-
 #logoMainWrapper {
-    padding: 10px 60px;
-    transition: 1s;
+  padding: 10px 60px;
+  transition: 1s;
 }
 
 #logoBW {

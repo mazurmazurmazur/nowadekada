@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ekonomiczna 2020</title>
+    <title>Partnerzy - Ekonomiczna 2020</title>
 
     <!-- PLUGINS CSS STYLE -->
     <!-- Bootstrap -->
@@ -25,271 +25,144 @@
     <!-- CUSTOM CSS -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/extra.css" rel="stylesheet" />
+    <link href="css/nav.css" rel="stylesheet" />
 
     <!-- FAVICON -->
     <link href="images/favicon.png" rel="shortcut icon" />
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150262602-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150262602-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-150262602-1');
-</script>
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
+      gtag("js", new Date());
+
+      gtag("config", "UA-150262602-1");
+    </script>
   </head>
 
   <body class="body-wrapper">
-  <!--========================================
+    <div class="progress" id="PreLoaderBar">
+      <div class="indeterminate"></div>
+    </div>
+    <!--========================================
 =            Navigation Section            =
 =========================================-->
 
-  <div id="navBg"></div>
-  <div class="ekonomiczna-navbar">
-    <a id="logoMainWrapper" href="index.html" onclick="return closeTopBar()"><img id="logoBW" src="images/logobw.png"></a>
-    <div id="navBurger" onclick="openNav()">&#9776;</div>
-  </div>
-  <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
-    <div class="container-fluid p-0">
-      <div class="ekonomiczna-close-nav-container">
-        <div class="ekonomiczna-close-nav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        </div>
-      </div>
+    <div id="navBg"></div>
+    <div class="ekonomiczna-navbar">
+      <a id="logoMainWrapper" href="index.html" onclick="return closeTopBar()"
+        ><img id="logoBW" src="images/logobw.png"
+      /></a>
 
-      <!-- logo -->
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo3.png" alt="logo">
-      </a>
-
-      <div id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item dropdown active dropdown-slide">
-            <a class="nav-link" href="about-us.html">O Nas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="speakers.html">Mówcy
-
-
-
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="agenda.pdf" target="_blank">Agenda</a>
-          </li>
-          <li class="nav-item">
-            <a href="../partners.html" class="nav-link">Partnerzy</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" >Warsztaty</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="team.html">Organizatorzy</a>
-          </li>
-          <li class="nav-item">
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Kontakt</a>
-          </li>
-        </ul>
-      </div>
+      <div id="navBurger" onclick="openNav()">&#9776;</div>
     </div>
-  </nav>
-
-  <!--====  End of Navigation Section  ====-->
-
-    <!--================================
-=            Page Title            =
-=================================-->
-
-    <section class="page-title bg-title overlay-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <div class="title">
-              <h3>Our Sponsors</h3>
-            </div>
-            <ol class="breadcrumb p-0 m-0">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active">Our Sponsors</li>
-            </ol>
+    <nav class="navbar main-nav border-less fixed-top navbar-expand-lg p-0">
+      <div class="container-fluid p-0">
+        <div class="ekonomiczna-close-nav-container">
+          <div class="ekonomiczna-close-nav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
           </div>
         </div>
-      </div>
-    </section>
 
-    <!--====  End of Page Title  ====-->
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo3.png" alt="logo" />
+        </a>
+
+        <div id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown active dropdown-slide">
+              <a class="nav-link" href="about-us.html">O Nas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="speakers.html">Mówcy </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="agenda.pdf" target="_blank"
+                >Agenda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../partners.html" class="nav-link"> Sponsorzy i Partnerzy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Warsztaty</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Organizatorzy</a>
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--====  End of Navigation Section  ====-->
 
     <!--==============================
 =            Sponsors            =
 ===============================-->
 
-    <section class="sponsors section  overlay-white">
+    <section class="section speakers white">
       <div class="container">
         <div class="row">
           <div class="col-12">
+            <!-- Section Title -->
             <div class="section-title">
-              <h3>Our <span class="alternate">Sponsors</span></h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusm tempor incididunt ut labore dolore
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <!-- Title -->
-            <div class="sponsor-title text-center">
-              <h5>Platinum Sponsors</h5>
-            </div>
-            <div class="block text-center">
-              <!-- Sponsors image list -->
-              <ul class="list-inline sponsors-list">
-                <li class="list-inline-item">
-                  <div class="image-block text-center">
-                    <a href="#">
-                      <img
-                        src="images/sponsors/pt-spon-two.png"
-                        alt="sponsors-logo"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="image-block text-center">
-                    <a href="#">
-                      <img
-                        src="images/sponsors/pt-spon-two.png"
-                        alt="sponsors-logo"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="image-block text-center">
-                    <a href="#">
-                      <img
-                        src="images/sponsors/pt-spon-three.png"
-                        alt="sponsors-logo"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="image-block text-center">
-                    <a href="#">
-                      <img
-                        src="images/sponsors/pt-spon-four.png"
-                        alt="sponsors-logo"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <!-- Title -->
-            <div class="sponsor-title text-center">
-              <h5>Gold Sponsors</h5>
-            </div>
-            <div class="block text-center">
-              <!-- Sponsors image list -->
-              <ul class="list-inline sponsors-list">
-                <li class="list-inline-item">
-                  <div class="image-block text-center">
-                    <a href="#">
-                      <img
-                        src="images/sponsors/gl-spon-one.png"
-                        alt="sponsors-logo"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="image-block text-center">
-                    <a href="#">
-                      <img
-                        src="images/sponsors/gl-spon-two.png"
-                        alt="sponsors-logo"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </li>
-                <li class="list-inline-item">
-                  <div class="image-block text-center">
-                    <a href="#">
-                      <img
-                        src="images/sponsors/gl-spon-three.png"
-                        alt="sponsors-logo"
-                        class="img-fluid"
-                      />
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="sponsor-btn text-center">
-              <a href="#" class="btn btn-main-md">Become a sponsor</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--====  End of Sponsors  ====-->
-
-    <!--==============================================
-=            Call to Action Subscribe            =
-===============================================-->
-
-    <section class="cta-subscribe bg-subscribe overlay-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mr-auto">
-            <!-- Subscribe Content -->
-            <div class="content">
               <h3>
-                Subskrybuj nasz <span class="alternate">Newsletter</span>
+                <span class="alternate" href="../sponsors.html"
+                  >Sponsorzy
+                </span>
               </h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusm tempor
-              </p>
+              <p></p>
             </div>
           </div>
-          <div class="col-md-6 ml-auto align-self-center">
-            <!-- Subscription form -->
-            <form action="#" class="row">
-              <div class="col-lg-8 col-md-12">
-                <input
-                  type="email"
-                  class="form-control main white mb-lg-0"
-                  placeholder="Email"
+        </div>
+        <div class="row">
+          <!-- Nazwa Sponsora -->
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 ekonomiczna-speaker-tile"
+            onclick="redirectTo('sponsors/.html')"
+          >
+            <div class="speaker-item">
+              <div class="image">
+                <img
+                  src="images/sponsors/.png"
+                  alt="partner"
+                  class="img-fluid"
                 />
               </div>
-              <div class="col-lg-4 col-md-12">
-                <div class="subscribe-button">
-                  <button class="btn btn-main-md">Subscribe</button>
-                </div>
+              <div class="content text-center">
+                <h5><a href="sponsors/.html">XXX</a></h5>
+                <p> &nbsp;</p>
               </div>
-            </form>
+            </div>
           </div>
+
+          
         </div>
       </div>
     </section>
 
-    <!--====  End of Call to Action Subscribe  ====-->
+    <!--====  End of Speakers  ====-->
 
     <!--================================
 =            Google Map            =
+
 =================================-->
 
     <section class="map">
@@ -298,10 +171,20 @@
       <div class="address-block">
         <h4>Ekonomiczna 2020</h4>
         <ul class="address-list p-0 m-0">
-          <li><i class="fa fa-home"></i><span>Akwarium - Skwer Hoovera <br>Krakowskie Przedmieście 60a<br> 00-322 Warszawa</span></li>
+          <li>
+            <i class="fa fa-home"></i
+            ><span
+              >Akwarium - Skwer Hoovera <br />Krakowskie Przedmieście 60a<br />
+              00-322 Warszawa</span
+            >
+          </li>
         </ul>
-        <a href="https://www.google.com/maps/place/skwer+H.+C.+Hoovera/@52.244546,21.014689,17z/data=!4m12!1m6!3m5!1s0x0:0xfd1b2b90ec6740cd!2sPlac+Zamkowy+02!8m2!3d52.2446781!4d21.0142173!3m4!1s0x471ecc66e3085863:0x68b4e441854c9db9!8m2!3d52.2443754!4d21.0146785?hl=pl-PL"
-           target="_blank" class="btn btn-white-md">Wskazówki</a>
+        <a
+          href="https://www.google.com/maps/place/skwer+H.+C.+Hoovera/@52.244546,21.014689,17z/data=!4m12!1m6!3m5!1s0x0:0xfd1b2b90ec6740cd!2sPlac+Zamkowy+02!8m2!3d52.2446781!4d21.0142173!3m4!1s0x471ecc66e3085863:0x68b4e441854c9db9!8m2!3d52.2443754!4d21.0146785?hl=pl-PL"
+          target="_blank"
+          class="btn btn-white-md"
+          >Wskazówki</a
+        >
       </div>
     </section>
 
@@ -318,20 +201,33 @@
             <div class="block text-center">
               <div class="footer-logo">
                 <img
-                   id ="logo-footer" src="images/footer-logo.png" 
+                  id="logo-footer"
+                  src="images/footer-logo.png"
                   alt="logo"
                   class="img-fluid"
                 />
               </div>
               <ul class="social-links-footer list-inline">
                 <li class="list-inline-item">
-                  <a href="https://www.facebook.com/stowarzyszenie.youth2.0" target="_blank"><i class="fa fa-facebook"></i></a>
+                  <a
+                    href="https://www.facebook.com/stowarzyszenie.youth2.0"
+                    target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/company/youth-2-0/about" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  <a
+                    href="https://www.linkedin.com/company/youth-2-0/about"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="https://www.instagram.com/youth__2.0/" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a
+                    href="https://www.instagram.com/youth__2.0/"
+                    target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -345,7 +241,9 @@
         <div class="row">
           <div class="col-md-6 align-self-center">
             <div class="copyright-text">
-              <p><a href="#">Ekonomiczna 2020</a> &#169; 2020 All Rights Reserved</p>
+              <p>
+                <a href="#">Ekonomiczna 2020</a> &#169; 2020 All Rights Reserved
+              </p>
             </div>
           </div>
           <div class="col-md-6">
