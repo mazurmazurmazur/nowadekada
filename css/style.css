@@ -718,8 +718,12 @@ select.form-control:not([size]):not([multiple]) {
 
 .nav-link:hover {
   font-size: 1.6vw;
+}
+
+.nav-item{
   cursor: pointer;
 }
+
 
 .main-nav .dropdown-slide {
   position: static;
@@ -1381,6 +1385,10 @@ select.form-control:not([size]):not([multiple]) {
 
 .schedule .schedule-tab ul li.nav-item {
   margin-right: 10px;
+}
+
+.nav-item, .nav-link{
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
